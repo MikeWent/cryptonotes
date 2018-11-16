@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -f /usr/bin/openssl ] || [ ! -f /usr/bin/zenity ] || [ ! -f /usr/bin/xdg-open ] || [ ! -f /usr/bin/mktemp ]; then
+if [ ! -f /usr/bin/openssl ] || [ ! -f /usr/bin/zenity ] || [ ! -f /usr/bin/xdg-open ] || [ ! -f /bin/mktemp ]; then
     echo "Unable to satisfy one of these dependencies: openssl, zenity, xdg-open, mktemp"
     exit 1
 fi
