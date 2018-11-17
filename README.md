@@ -2,7 +2,7 @@
 
 Easy notes encryption done with `openssl` and password entry GUI via `zenity`. Pure Bash script with security _and_ simplicity in mind.
 
-# Usage
+## Usage
 
 `cryptonotes.sh ~/private.txt`
 
